@@ -2,7 +2,7 @@
 layout: post
 title: "React - First attempt"
 date: 2021-01-08
-excerpt: "First React tutorial - React and it's basics concepts"
+excerpt: "First React tutorial - React and its basics concepts"
 tags: [react, jxs, vanillajs, babel, webpack, dom, virtualdom, lifecycle]
 comments: true
 ---
