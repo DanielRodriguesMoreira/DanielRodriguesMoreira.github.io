@@ -15,22 +15,16 @@ comments: true
 * fast (uses VirtualDOM)
 * created by Facebook
 
-***
 
 **JXS** (**J**ava**S**cript **X**ML) ---> combines Javascript and HTML
 
-***
-
 **Vanilla JS** ---> plain Javascript without any additional libraries (like JQuery)
 
-**Note!** If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
+**Note!**
+If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
 {: .notice}
 
-***
-
 **Babel** ---> compiles our code into Javascript allowing to be understandable by the browsers.
-
-***
 
 **DOM** (**D**ocument **O**bject **M**odel) --> representation/tree of the objects that comprise the structure and content of a document on the web
 
@@ -47,13 +41,21 @@ How it works:
 
 ### Mounting lifecycle functions
 
-1. `getInitialState` ---> set the initial state of the component
-2. `componentWillMount` ---> before the component is mounted to the DOM
-3. `render` ---> returns HTML to add to the DOM
-4. `componentDidMount` ---> fires after anything is added to the DOM
-   
-   **Note!** `componentDidMount` -> good place to load in external data
-   {: .notice}
+1. `getInitialState`
+    * set the initial state of the component
+2. `componentWillMount`
+    * before the component is mounted to the DOM
+3. `render`
+    * returns HTML to add to the DOM
+4. `componentDidMount`
+    * fires after anything is added to the DOM
+    * **Note!** `componentDidMount` -> good place to load in external data
+      {: .notice}
 
+### Updating lifecycle functions
+
+1. `componentWillReceiveProps`
+    * fires before a component receives any new prop
+    
 
 source: The net Ninja
