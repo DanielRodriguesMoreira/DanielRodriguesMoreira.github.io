@@ -20,8 +20,7 @@ comments: true
 
 **Vanilla JS** ---> plain Javascript without any additional libraries (like JQuery)
 
-If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
-{: .notice}
+> If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
 
 **Babel** ---> compiles our code into Javascript allowing to be understandable by the browsers.
 
@@ -49,7 +48,6 @@ How it works:
 4. `componentDidMount`
     * fires after anything is added to the DOM
     * **Note!** good place to load in external data
-      {: .notice}
 
 ### Updating lifecycle functions
 
@@ -69,9 +67,9 @@ How it works:
 ## Routing
 
 **Router** ---> keeps URL in sync with the UI
+
 **Route** ---> match our routes to the app component
 
+***
 
-    
-
-source: The net Ninja
+source: [The Net Ninja](https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR&ab_channel=TheNetNinja)
