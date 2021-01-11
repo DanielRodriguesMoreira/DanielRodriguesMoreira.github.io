@@ -20,7 +20,6 @@ comments: true
 
 **Vanilla JS** ---> plain Javascript without any additional libraries (like JQuery)
 
-**Note!**
 If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
 {: .notice}
 
@@ -49,13 +48,30 @@ How it works:
     * returns HTML to add to the DOM
 4. `componentDidMount`
     * fires after anything is added to the DOM
-    * **Note!** `componentDidMount` -> good place to load in external data
+    * **Note!** good place to load in external data
       {: .notice}
 
 ### Updating lifecycle functions
 
 1. `componentWillReceiveProps`
     * fires before a component receives any new prop
+    *  **Note!** good place to compare the actual props with the new ones and change the state if needed {: .notice}
+2. `shouldComponentUpdate`
+    * can return false if no updated wanted
+3. `componentWillUpdate`
+    * fires if `shouldComponentUpdate` not returns false
+4. `render`
+5. `componentDidUpdate`
+   * good place to operate the DOM or perform network requests
+    
+***
+
+## Routing
+
+**Router** ---> keeps URL in sync with the UI
+**Route** ---> match our routes to the app component
+
+
     
 
 source: The net Ninja
