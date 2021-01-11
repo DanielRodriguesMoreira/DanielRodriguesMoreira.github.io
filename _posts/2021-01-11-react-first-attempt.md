@@ -3,7 +3,7 @@ layout: post
 title: "React - First attempt"
 date: 2021-01-08
 excerpt: "First React tutorial - React and its basics concepts"
-tags: [react, jxs, vanillajs, babel, webpack, dom, virtualdom, lifecycle]
+tags: [react, jxs, vanillajs, babel, dom, virtualdom, lifecycle]
 comments: true
 ---
 
@@ -20,18 +20,18 @@ comments: true
 
 **Vanilla JS** ---> plain Javascript without any additional libraries (like JQuery)
 
-> If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
+If you can write the code and run it in any current browser without additional tools or compile steps, it's **VanillaJS**
+{: .notice}
 
 **Babel** ---> compiles our code into Javascript allowing to be understandable by the browsers.
 
 **DOM** (**D**ocument **O**bject **M**odel) --> representation/tree of the objects that comprise the structure and content of a document on the web
 
 **Virtual DOM** ---> abstraction/representation of the DOM
-
-How it works:
-1. creates VirtualDOM with the change
-2. compares the VirtualDOM created (step 1) with the *older* version of DOM
-3. updates only the sections that are different
+* How it works:
+    1. creates VirtualDOM with the change
+    2. compares the VirtualDOM created (step 1) with the *older* version of DOM
+    3. updates only the sections that are different
 
 ***
 
@@ -53,14 +53,14 @@ How it works:
 
 1. `componentWillReceiveProps`
     * fires before a component receives any new prop
-    *  **Note!** good place to compare the actual props with the new ones and change the state if needed {: .notice}
+    *  **Note!** good place to compare the actual props with the new ones and change the state if needed
 2. `shouldComponentUpdate`
     * can return false if no updated wanted
 3. `componentWillUpdate`
     * fires if `shouldComponentUpdate` not returns false
 4. `render`
 5. `componentDidUpdate`
-   * good place to operate the DOM or perform network requests
+   * **Note!** good place to operate the DOM or perform network requests
     
 ***
 
