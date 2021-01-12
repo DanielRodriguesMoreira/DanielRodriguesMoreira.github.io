@@ -71,5 +71,5 @@ If you can write the code and run it in any current browser without additional t
 **Route** ---> match our routes to the app component
 
 ***
-
-source: [The Net Ninja](https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR&ab_channel=TheNetNinja)
+code: [react-first-attempt](https://github.com/DanielRodriguesMoreira/react-first-attempt) |
+course: [The Net Ninja](https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR&ab_channel=TheNetNinja)
